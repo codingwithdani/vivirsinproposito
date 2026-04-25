@@ -1,0 +1,182 @@
+/* Common styles used across components */
+
+/* Labels - Small uppercase text */
+.section-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+/* Titles - Large section headings */
+.section-title {
+  font-size: 2.75rem;
+  line-height: 1.2;
+  margin: 0 0 1.5rem 0;
+  font-weight: 400;
+}
+
+/* Descriptions - Intro text for sections */
+.section-description {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* Cards - Reusable card styles */
+.card {
+  border-radius: 16px;
+  padding: 2.5rem;
+  border: 1px solid #e8edf2;
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+}
+
+.card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transform: translateY(-4px);
+}
+
+.card-large {
+  border-radius: 20px;
+  padding: 2.5rem;
+}
+
+/* Buttons - Primary and secondary styles */
+.btn {
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.btn-primary {
+  background-color: #1e3a5f;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #2d4d75;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(30, 58, 95, 0.3);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #1e3a5f;
+  border: 2px solid #1e3a5f;
+  padding: 0.875rem 1.875rem;
+}
+
+.btn-secondary:hover {
+  background-color: #1e3a5f;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(30, 58, 95, 0.2);
+}
+
+.btn .arrow {
+  font-size: 1.25rem;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover .arrow {
+  transform: translateX(4px);
+}
+
+/* Tags - Small pill-shaped elements */
+.tag {
+  background-color: #f5f7fa;
+  color: #5a6c7d;
+  padding: 0.6rem 1.25rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  border: 1px solid #e1e8ed;
+  transition: all 0.2s ease;
+  display: inline-block;
+}
+
+.tag:hover {
+  background-color: #e8f2f7;
+  border-color: #4a7c9e;
+  color: #4a7c9e;
+}
+
+/* Grid layouts */
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+/* Color utilities */
+.text-primary {
+  color: #1e3a5f;
+}
+
+.text-secondary {
+  color: #5a6c7d;
+}
+
+.text-accent {
+  color: #4a7c9e;
+}
+
+.bg-light {
+  background-color: #f9fafc;
+}
+
+.bg-dark {
+  background-color: #1e3a5f;
+  color: #ffffff;
+}
+
+/* Responsive grid breakpoints */
+@media (max-width: 968px) {
+  .grid-2,
+  .grid-3 {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.75rem;
+  }
+
+  .section-description {
+    font-size: 1rem;
+  }
+
+  .card {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+}
