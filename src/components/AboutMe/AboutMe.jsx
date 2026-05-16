@@ -5,10 +5,10 @@ function AboutMe() {
     <section className="about-me" id="sobre-mi">
       <div className="about-me-container">
         <div className="about-me-image">
-          <img
-            src="/carlos.png"
-            alt="Carlos Aguilera presentando en conferencia"
-          />
+          <picture>
+              <source srcSet="/carlos.webp" type="image/webp" />
+              <img src="/carlos.png" alt="Carlos Aguilera presentando en conferencia" />
+            </picture>
         </div>
 
         <div className="about-me-content">

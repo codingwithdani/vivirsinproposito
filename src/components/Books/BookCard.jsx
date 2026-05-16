@@ -3,7 +3,10 @@ function BookCard({ badge, badgeType, coverImage, category, title, intro, featur
     <div className="book-card">
       <div className="book-image-container">
         <span className={`book-badge ${badgeType}`}>{badge}</span>
-        <img src={coverImage} alt={`Portada del libro ${title}`} className="book-cover" />
+        <picture>
+          <source srcSet={coverImage.replace(/\.(jpg|png)$/, '.webp')} type="image/webp" />
+          <img src={coverImage} alt={`Portada del libro ${title}`} className="book-cover" />
+        </picture>
       </div>
       <div className="book-content">
         <div className="book-category">{category}</div>
