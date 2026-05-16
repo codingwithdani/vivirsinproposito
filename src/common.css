@@ -1,5 +1,12 @@
 /* Common styles used across components */
 
+/*
+  Breakpoints estándar:
+  --bp-tablet:  968px  → layouts de 2+ columnas pasan a 1 columna
+  --bp-mobile:  768px  → tipografía, padding y formularios se adaptan
+  --bp-small:   480px  → ajustes finales para pantallas pequeñas
+*/
+
 /* Labels - Small uppercase text */
 .section-label {
   font-size: 0.75rem;

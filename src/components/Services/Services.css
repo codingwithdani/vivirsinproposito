@@ -39,7 +39,7 @@
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
   margin-bottom: 4rem;
 }
@@ -124,8 +124,8 @@
 }
 
 .services-button {
-  background-color: #7ba3c7;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #1e3a5f;
   border: none;
   padding: 1.125rem 2.5rem;
   border-radius: 30px;
@@ -139,9 +139,9 @@
 }
 
 .services-button:hover {
-  background-color: #9dbad4;
+  background-color: #e8f0f8;
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(123, 163, 199, 0.4);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
 }
 
 .services-button .arrow {
@@ -154,14 +154,13 @@
 }
 
 /* Responsive */
-@media (max-width: 968px) {
-  .services-grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-}
 
 @media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+
   .services-title {
     font-size: 2rem;
   }

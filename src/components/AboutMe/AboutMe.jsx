@@ -15,7 +15,7 @@ function AboutMe() {
           <p className="about-me-label">SOBRE MÍ</p>
 
           <h2 className="about-me-title">
-            Una trayectoria construida en el campo real
+            Una mirada crítica construida desde la experiencia
           </h2>
 
           <div className="about-me-text">

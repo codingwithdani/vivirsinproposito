@@ -22,10 +22,22 @@
   align-items: center;
 }
 
+.hero-image-wrapper {
+  width: 480px;
+  height: 480px;
+  border-radius: 50%;
+  background-color: #d6eaf8;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
 .hero-image img {
-  width: 100%;
+  width: 90%;
   height: auto;
   object-fit: contain;
+  display: block;
 }
 
 .hero-badge {
@@ -174,8 +186,9 @@
     padding: 0.6rem 1.2rem;
   }
 
-  .hero-image img {
-    max-width: 350px;
+  .hero-image-wrapper {
+    width: 320px;
+    height: 320px;
   }
 }
 

@@ -13,15 +13,7 @@ function Contact() {
           </p>
 
           <div className="contact-methods">
-            <div className="contact-method">
-              <div className="method-icon">✉️</div>
-              <div className="method-info">
-                <p className="method-label">EMAIL</p>
-                <p className="method-value">carlosaguilera1352@gmail.com</p>
-              </div>
-            </div>
-
-            <div className="contact-method">
+<div className="contact-method">
               <div className="method-icon">🌐</div>
               <div className="method-info">
                 <p className="method-label">DISPONIBILIDAD</p>

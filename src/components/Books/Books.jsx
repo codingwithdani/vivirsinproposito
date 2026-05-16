@@ -8,7 +8,7 @@ function Books() {
       badgeType: '',
       coverImage: '/VivirSinProposito.jpg',
       category: 'DESARROLLO PERSONAL · FILOSOFÍA DE VIDA',
-      title: '¿Y si el propósito que buscas ya no te sirve?',
+      title: '¿Y si realmente no es necesario tener un Propósito para ser feliz?',
       intro: 'Vivimos bombardeados por la idea de que debemos tener un gran propósito, dejar un legado, trascender. Pero, ¿qué pasa si esa presión es, en sí misma, lo que te impide vivir plenamente?',
       features: [
         'Cuestiona los mandatos culturales sobre el éxito y el significado',
@@ -39,7 +39,7 @@ function Books() {
         <div className="books-header">
           <p className="books-label">PUBLICACIONES</p>
           <h2 className="books-title">
-            Libros que cambiarán tu perspectiva
+             Ideas para mentes inquietas
           </h2>
           <p className="books-description">
             Escritos desde la experiencia real, con lenguaje accesible y reflexiones

@@ -15,7 +15,7 @@ function BookCard({ badge, badgeType, coverImage, category, title, intro, featur
           ))}
         </ul>
         <button className="book-cta">
-          Conseguir el libro <span className="arrow">→</span>
+          ¡Quiero este libro! <span className="arrow">→</span>
         </button>
       </div>
     </div>

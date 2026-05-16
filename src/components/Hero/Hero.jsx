@@ -1,6 +1,16 @@
 import './Hero.css'
 
 function Hero() {
+  const handleScrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId)
+    if (element) {
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      })
+    }
+  }
+
   return (
     <section className="hero">
       <div className="hero-container">
@@ -11,20 +21,22 @@ function Hero() {
           </div>
 
           <h1 className="hero-title">
-            Transforma tu organización.
+            Desafía tus creencias
             <br />
-            <span className="hero-title-accent">Transforma tu vida.</span>
+            <span className="hero-title-accent">Explora nuevas formas de vivir.</span>
           </h1>
 
           <p className="hero-description">
-            Especialista en bienestar laboral, violencia organizacional y
-            desarrollo humano. Más de una década acompañando a personas
-            y empresas hacia ambientes de trabajo más sanos y productivos.
+          Carlos Aguilera (Malavé) es autor, psicólogo y estratega creativo. Su trabajo integra pensamiento crítico, narrativa cultural y psicología aplicada para cuestionar mandatos sociales, explorar nuevas formas de existir y ofrecer herramientas frente a los desafíos humanos y organizacionales
           </p>
 
           <div className="hero-cta">
-            <button className="btn-primary">Conoce mis libros</button>
-            <button className="btn-secondary">Contratar conferencia</button>
+            <button className="btn-primary" onClick={() => handleScrollToSection('libros')}>
+              Descubre mis libros
+            </button>
+            <button className="btn-secondary" onClick={() => handleScrollToSection('contacto')}>
+              Colaboremos juntos
+            </button>
           </div>
 
           <div className="hero-tags">
@@ -36,7 +48,9 @@ function Hero() {
         </div>
 
         <div className="hero-image">
-          <img src="/carlos-aguilera.png" alt="Carlos Aguilera" />
+          <div className="hero-image-wrapper">
+            <img src="/carlos-aguilera.png" alt="Carlos Aguilera" />
+          </div>
         </div>
       </div>
     </section>

@@ -4,18 +4,23 @@ function Services() {
   const services = [
     {
       icon: '🎤',
-      title: 'Talleres y Conferencias',
-      description: 'Presentaciones dinámicas y documentadas para congresos, eventos empresariales y foros académicos. Adaptadas a tu audiencia y objetivos.'
+      title: 'Conferencias y experiencias',
+      description: 'Ponencias para congresos, foros académicos y eventos empresariales. Espacios de pensamiento crítico que desafían audiencias en temas como el éxito sin propósito, el poder en la cultura organizacional y las dinámicas humanas destructivas.'
     },
     {
       icon: '🏛️',
-      title: 'Capacitación Empresarial',
-      description: 'Talleres y programas formativos para líderes y equipos orientados a mejorar el clima organizacional, la comunicación y el cumplimiento normativo.'
+      title: 'Consultoria organizacional',
+      description: 'Acompañamiento estratégico para identificar grietas en la organización y co-crear entornos laborales saludables. Diagnósticos de cultura, auditorías de comunicación, prevención de violencia y formación de líderes conscientes.'
     },
     {
       icon: '🎙️',
-      title: 'Entrevistas y Medios',
-      description: 'Disponible para podcasts, medios digitales, radio y televisión como especialista en psicología organizacional y bienestar laboral.'
+      title: 'Medios y colaboraciones',
+      description: 'Especialista disponible para podcasts, medios digitales, radio y televisión. Abordo temas complejos de psicología organizacional y bienestar de forma accesible a través de entrevistas, paneles, artículos y proyectos de co-creación.'
+    },
+    {
+      icon: '📚',
+      title: 'Libros, Programas y Experiencias',
+      description: 'Diseño espacios de aprendizaje y reflexión colectiva que combinan teoría con acción real. Talleres, clubes de lectura, cursos híbridos y experiencias educativas a medida para desafiar la mente y expandir la conciencia.'
     }
   ]
 
@@ -28,6 +33,16 @@ function Services() {
     'Clima y cultura organizacional',
     'Propósito y bienestar personal'
   ]
+
+  const handleScrollToContact = () => {
+    const element = document.getElementById('contacto')
+    if (element) {
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      })
+    }
+  }
 
   return (
     <section className="services" id="conferencias">
@@ -48,7 +63,7 @@ function Services() {
             <div key={index} className="service-card">
               <div className="service-icon">{service.icon}</div>
               <h3 className="service-title">{service.title}</h3>
-              <p className="service-description">{service.description}</p>
+              <p className="service-description" style={{whiteSpace: 'pre-line'}}>{service.description}</p>
             </div>
           ))}
         </div>
@@ -63,7 +78,7 @@ function Services() {
         </div>
 
         <div className="services-cta">
-          <button className="services-button">
+          <button className="services-button" onClick={handleScrollToContact}>
             Solicitar información <span className="arrow">→</span>
           </button>
         </div>
