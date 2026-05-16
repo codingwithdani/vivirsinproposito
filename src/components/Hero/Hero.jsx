@@ -51,7 +51,7 @@ function Hero() {
           <div className="hero-image-wrapper">
             <picture>
               <source srcSet="/carlos-aguilera.webp" type="image/webp" />
-              <img src="/carlos-aguilera.png" alt="Carlos Aguilera" />
+              <img src="/carlos-aguilera.png" alt="Carlos Aguilera" width="960" height="960" fetchPriority="high" />
             </picture>
           </div>
         </div>
