@@ -27,7 +27,7 @@ function Hero() {
           </h1>
 
           <p className="hero-description">
-          Carlos Aguilera (Malavé) es autor, psicólogo y estratega creativo. Su trabajo integra pensamiento crítico, narrativa cultural y psicología aplicada para cuestionar mandatos sociales, explorar nuevas formas de existir y ofrecer herramientas frente a los desafíos humanos y organizacionales
+          Carlos A. (Malavé) es autor, psicólogo y estratega creativo. Su trabajo integra pensamiento crítico, narrativa cultural y psicología aplicada para cuestionar mandatos sociales, explorar nuevas formas de existir y ofrecer herramientas para afrontar los diversos desafíos de la vida.
           </p>
 
           <div className="hero-cta">
