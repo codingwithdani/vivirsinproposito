@@ -43,7 +43,7 @@ function Services() {
         <div className="services-header">
           <p className="services-label">SERVICIOS PROFESIONALES</p>
           <h2 className="services-title">
-            Lleva el cambio a tu vida y tu organización
+            Lleva el cambio a tu vida y a tu organización
           </h2>
           <p className="services-description">
             Conferencias y talleres diseñados para generar impacto.
