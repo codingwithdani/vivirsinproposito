@@ -9,7 +9,7 @@ function Books() {
       coverImage: '/VivirSinProposito.jpg',
       category: 'DESARROLLO PERSONAL · FILOSOFÍA DE VIDA',
       title: '¿Y si realmente no es necesario tener un Propósito para ser feliz?',
-      intro: 'Vivimos bombardeados por la idea de que debemos tener un gran propósito, dejar un legado, trascender. Pero, ¿qué pasa si esa presión es, en sí misma, lo que te impide vivir plenamente?',
+      intro: 'Vivimos bombardeados por la idea de que debemos tener un gran propósito, dejar un legado y trascender. Pero, ¿qué pasa si esa presión es, en sí misma, lo que te impide vivir plenamente?',
       features: [
         'Cuestiona los mandatos culturales sobre el éxito y el significado',
         'Descubre nuevas formas de habitar tu vida con aceptación y presencia',
