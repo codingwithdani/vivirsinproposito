@@ -37,7 +37,7 @@ function AboutMe() {
             </p>
 
             <p>
-              Como psicólogo, consultor y autor, exploro ambas dimensiones a través de conferencias, libros y espacios de reflexión que combinan experiencia real, pensamiento crítico y exploración humana.
+              Como psicólogo, consultor y autor, exploro ambas dimensiones a través de conferencias, libros y espacios de reflexión que combinan experiencia, pensamiento crítico y exploración humana.
             </p>
           </div>
 
