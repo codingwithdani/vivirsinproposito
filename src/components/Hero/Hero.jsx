@@ -38,12 +38,6 @@ function Hero() {
               Colaboremos juntos
             </button>
           </div>
-
-          <div className="hero-tags">
-            <span className="tag">Empoderamiento ante la violencia laboral</span>
-            <span className="tag">Efectividad organizacional</span>
-            <span className="tag">Promoción del bienestar existencial</span>
-          </div>
         </div>
 
         <div className="hero-image">
