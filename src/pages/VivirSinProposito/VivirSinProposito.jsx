@@ -69,36 +69,6 @@ function VivirSinProposito() {
           </div>
         </section>
 
-        {/* Lo que encontrarás */}
-        <section className="vsp-features">
-          <div className="vsp-section-container">
-            <p className="vsp-label">LO QUE ENCONTRARÁS</p>
-            <h2 className="vsp-section-title">Cuatro ideas que cambian la forma de habitarte</h2>
-            <div className="vsp-features-grid">
-              <div className="vsp-feature-card">
-                <div className="vsp-feature-number">01</div>
-                <h3>Cuestiona los mandatos culturales</h3>
-                <p>Descubre cómo el discurso del éxito y el significado opera como una trampa invisible que muchos no logran ver hasta que el agotamiento los detiene.</p>
-              </div>
-              <div className="vsp-feature-card">
-                <div className="vsp-feature-number">02</div>
-                <h3>Nuevas formas de habitar tu vida</h3>
-                <p>Explora la aceptación y la presencia como alternativas reales al ciclo de metas y frustraciones que caracteriza la vida moderna.</p>
-              </div>
-              <div className="vsp-feature-card">
-                <div className="vsp-feature-number">03</div>
-                <h3>Personajes icónicos como espejos</h3>
-                <p>Reconócete en historias que conoces, pero vistas desde un ángulo que nunca habías considerado. La cultura popular como herramienta de autoconocimiento.</p>
-              </div>
-              <div className="vsp-feature-card">
-                <div className="vsp-feature-number">04</div>
-                <h3>Un diálogo que abre posibilidades</h3>
-                <p>No es un manual de instrucciones. Es una conversación honesta que invita a pensar, sentir y, sobre todo, a decidir qué quieres hacer con tu propia existencia.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Cita destacada */}
         <section className="vsp-quote">
           <div className="vsp-section-container">
@@ -120,6 +90,55 @@ function VivirSinProposito() {
               <div className="vsp-audience-item">Te cansas de vivir según expectativas que no elegiste</div>
               <div className="vsp-audience-item">Buscas una lectura que te piense, no que te tranquilice</div>
               <div className="vsp-audience-item">Quieres explorar tu vida con curiosidad en lugar de con urgencia</div>
+            </div>
+          </div>
+        </section>
+
+        {/* Reseñas */}
+        <section className="vsp-reviews">
+          <div className="vsp-section-container">
+            <p className="vsp-label">RESEÑAS</p>
+            <h2 className="vsp-section-title">Lo que dicen los lectores</h2>
+            <div className="vsp-reviews-layout">
+              <div className="vsp-tiktok-wrapper">
+                <iframe
+                  src="https://www.tiktok.com/embed/v2/7509219865564122373"
+                  className="vsp-tiktok-embed"
+                  allowFullScreen
+                  allow="encrypted-media"
+                  title="Reseña de Vivir sin Propósito por @ladivinalectora"
+                />
+              </div>
+              <div className="vsp-reviews-content">
+                <div className="vsp-review-point">
+                  <div className="vsp-review-number">01</div>
+                  <div>
+                    <h3>Cuestiona los mandatos culturales</h3>
+                    <p>Descubre cómo el discurso del éxito y el significado opera como una trampa invisible que muchos no logran ver hasta que el agotamiento los detiene.</p>
+                  </div>
+                </div>
+                <div className="vsp-review-point">
+                  <div className="vsp-review-number">02</div>
+                  <div>
+                    <h3>Nuevas formas de habitar tu vida</h3>
+                    <p>Explora la aceptación y la presencia como alternativas reales al ciclo de metas y frustraciones que caracteriza la vida moderna.</p>
+                  </div>
+                </div>
+                <div className="vsp-review-point">
+                  <div className="vsp-review-number">03</div>
+                  <div>
+                    <h3>Personajes icónicos como espejos</h3>
+                    <p>Reconócete en historias que conoces, pero vistas desde un ángulo que nunca habías considerado. La cultura popular como herramienta de autoconocimiento.</p>
+                  </div>
+                </div>
+                <div className="vsp-review-point">
+                  <div className="vsp-review-number">04</div>
+                  <div>
+                    <h3>Un diálogo que abre posibilidades</h3>
+                    <p>No es un manual de instrucciones. Es una conversación honesta que invita a pensar, sentir y, sobre todo, a decidir qué quieres hacer con tu propia existencia.</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>

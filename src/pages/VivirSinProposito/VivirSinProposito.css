@@ -163,52 +163,6 @@
   margin: 0;
 }
 
-/* Features */
-.vsp-features {
-  background-color: #f9fafc;
-}
-
-.vsp-features-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
-}
-
-.vsp-feature-card {
-  background-color: #ffffff;
-  border-radius: 16px;
-  border: 1px solid #e8edf2;
-  padding: 2.5rem;
-  transition: all 0.3s ease;
-}
-
-.vsp-feature-card:hover {
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-  transform: translateY(-4px);
-}
-
-.vsp-feature-number {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #d6eaf8;
-  margin-bottom: 1rem;
-  line-height: 1;
-}
-
-.vsp-feature-card h3 {
-  font-size: 1.1rem;
-  font-weight: 600;
-  color: #1e3a5f;
-  margin: 0 0 0.75rem 0;
-}
-
-.vsp-feature-card p {
-  font-size: 0.95rem;
-  line-height: 1.7;
-  color: #5a6c7d;
-  margin: 0;
-}
-
 /* Quote */
 .vsp-quote {
   background-color: #1e3a5f;
@@ -261,9 +215,69 @@
   border-left: 3px solid #4a7c9e;
 }
 
+/* Reviews */
+.vsp-reviews {
+  background-color: #f9fafc;
+}
+
+.vsp-reviews-layout {
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.vsp-tiktok-wrapper {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(30, 58, 95, 0.12);
+}
+
+.vsp-tiktok-embed {
+  width: 100%;
+  height: 740px;
+  border: none;
+  display: block;
+}
+
+.vsp-reviews-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.vsp-review-point {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.vsp-review-number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #d6eaf8;
+  line-height: 1;
+  flex-shrink: 0;
+  min-width: 2.5rem;
+}
+
+.vsp-review-point h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #1e3a5f;
+  margin: 0 0 0.5rem 0;
+}
+
+.vsp-review-point p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #5a6c7d;
+  margin: 0;
+}
+
 /* Final CTA */
 .vsp-final-cta {
-  background-color: #f9fafc;
+  background-color: #ffffff;
   text-align: center;
 }
 
@@ -297,8 +311,14 @@
     gap: 1.5rem;
   }
 
-  .vsp-features-grid {
+  .vsp-reviews-layout {
     grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .vsp-tiktok-wrapper {
+    max-width: 420px;
+    margin: 0 auto;
   }
 
   .vsp-section-title {
