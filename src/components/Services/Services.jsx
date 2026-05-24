@@ -46,8 +46,7 @@ function Services() {
             Lleva el cambio a tu vida y tu organización
           </h2>
           <p className="services-description">
-            Conferencias y talleres diseñados para generar impacto real
-            en equipos y líderes.
+            Conferencias y talleres diseñados para generar impacto.
           </p>
         </div>
 
