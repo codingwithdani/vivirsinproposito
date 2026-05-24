@@ -80,7 +80,7 @@ function VivirSinProposito() {
         </section>
 
         {/* Para quién es */}
-        <section className="vsp-audience">
+        {/* <section className="vsp-audience">
           <div className="vsp-section-container">
             <p className="vsp-label">¿PARA QUIÉN ES?</p>
             <h2 className="vsp-section-title">Este libro es para ti si...</h2>
@@ -92,7 +92,7 @@ function VivirSinProposito() {
               <div className="vsp-audience-item">Quieres explorar tu vida con curiosidad en lugar de con urgencia</div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Reseñas */}
         <section className="vsp-reviews">
