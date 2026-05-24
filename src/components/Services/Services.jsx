@@ -60,7 +60,7 @@ function Services() {
           ))}
         </div>
 
-        <div className="services-topics">
+{/*         <div className="services-topics">
           <p className="topics-label">TEMAS DE ESPECIALIDAD</p>
           <div className="topics-list">
             {topics.map((topic, index) => (
@@ -68,7 +68,7 @@ function Services() {
             ))}
           </div>
         </div>
-
+ */}
         <div className="services-cta">
           <button className="services-button" onClick={handleScrollToContact}>
             Solicitar información <span className="arrow">→</span>
