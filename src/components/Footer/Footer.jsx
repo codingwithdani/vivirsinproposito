@@ -5,7 +5,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-copyright">
-          © Carlos Aguilera · Psicólogo, Autor y Conferencista · México
+          © Carlos A. Aguilera (Malavé) · Psicólogo, Autor y Conferencista · México
         </div>
       </div>
     </footer>

@@ -7,7 +7,7 @@ function AboutMe() {
         <div className="about-me-image">
           <picture>
               <source srcSet="/carlos.webp" type="image/webp" />
-              <img src="/carlos.png" alt="Carlos A. (Malavé) presentando en conferencia" />
+              <img src="/carlos.png" alt="Carlos A. Aguilera (Malavé) presentando en conferencia" />
             </picture>
         </div>
 

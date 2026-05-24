@@ -27,7 +27,7 @@ function Hero() {
           </h1>
 
           <p className="hero-description">
-          Carlos A. (Malavé) es autor, psicólogo y estratega creativo. Su trabajo integra pensamiento crítico, narrativa cultural y psicología aplicada para cuestionar mandatos sociales, explorar nuevas formas de existir y ofrecer herramientas para afrontar los diversos desafíos de la vida.
+          Carlos A. Aguilera (Malavé) es autor, psicólogo y estratega creativo. Su trabajo integra pensamiento crítico, narrativa cultural y psicología aplicada para cuestionar mandatos sociales, explorar nuevas formas de existir y ofrecer herramientas para afrontar los diversos desafíos de la vida.
           </p>
 
           <div className="hero-cta">
@@ -50,7 +50,7 @@ function Hero() {
           <div className="hero-image-wrapper">
             <picture>
               <source srcSet="/carlos-aguilera.webp" type="image/webp" />
-              <img src="/carlos-aguilera.png" alt="Carlos Aguilera" width="960" height="960" fetchPriority="high" />
+              <img src="/carlos-aguilera.png" alt="Carlos A. Aguilera (Malavé)" width="960" height="960" fetchPriority="high" />
             </picture>
           </div>
         </div>
