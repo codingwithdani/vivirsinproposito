@@ -39,14 +39,9 @@ function VivirSinProposito() {
               </p>
 
               <div className="vsp-cta-group">
-                <a
-                  href="https://siglantana.com/producto/vivir-sin-proposito/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="vsp-btn-primary"
-                >
+                <button className="vsp-btn-primary">
                   Quiero este libro →
-                </a>
+                </button>
                 <button className="vsp-btn-secondary" onClick={() => navigate('/#contacto')}>
                   Contactar al autor
                 </button>
@@ -136,14 +131,9 @@ function VivirSinProposito() {
             <p className="vsp-final-description">
               Disponible en formato físico y digital.
             </p>
-            <a
-              href="https://siglantana.com/producto/vivir-sin-proposito/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="vsp-btn-primary vsp-btn-large"
-            >
+            <button className="vsp-btn-primary vsp-btn-large">
               Consigue tu ejemplar →
-            </a>
+            </button>
           </div>
         </section>
 
