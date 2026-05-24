@@ -17,9 +17,9 @@ function Books() {
         'Un diálogo íntimo que abre posibilidades en lugar de cerrarlas'
       ]
     },
-    {
-      badge: 'BESTSELLER',
-      badgeType: 'bestseller',
+    {      
+      badge: 'DISRUPTIVO',
+      badgeType: '',
       coverImage: '/ganaleAlDepredador.jpg',
       category: 'PSICOLOGÍA LABORAL · AUTOPROTECCIÓN',
       title: '¿Y si nadie viene a rescatarte, qué harías ante un agresor?',
