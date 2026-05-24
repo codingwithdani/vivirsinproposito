@@ -1,0 +1,340 @@
+.vsp-page {
+  color: #1e3a5f;
+}
+
+/* Hero */
+.vsp-hero {
+  background-color: #f9fafc;
+  padding: 6rem 2rem;
+}
+
+.vsp-hero-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 5rem;
+  align-items: center;
+}
+
+.vsp-hero-image {
+  position: relative;
+}
+
+.vsp-hero-image picture img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(30, 58, 95, 0.15);
+}
+
+.vsp-badge {
+  position: absolute;
+  top: -12px;
+  left: 20px;
+  background-color: #1e3a5f;
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.vsp-category {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #4a7c9e;
+  margin: 0 0 1rem 0;
+}
+
+.vsp-title {
+  font-size: 2.4rem;
+  line-height: 1.25;
+  font-weight: 400;
+  color: #1e3a5f;
+  margin: 0 0 0.75rem 0;
+}
+
+.vsp-author {
+  font-size: 1rem;
+  color: #5a6c7d;
+  margin: 0 0 1.5rem 0;
+  font-style: italic;
+}
+
+.vsp-intro {
+  font-size: 1.1rem;
+  line-height: 1.75;
+  color: #5a6c7d;
+  margin: 0 0 2rem 0;
+}
+
+.vsp-cta-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.vsp-btn-primary {
+  background-color: #1e3a5f;
+  color: #ffffff;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.vsp-btn-primary:hover {
+  background-color: #2d4d75;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(30, 58, 95, 0.3);
+}
+
+.vsp-btn-secondary {
+  background-color: transparent;
+  color: #1e3a5f;
+  border: 2px solid #1e3a5f;
+  padding: 0.875rem 1.875rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.vsp-btn-secondary:hover {
+  background-color: #1e3a5f;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.vsp-btn-large {
+  padding: 1.25rem 3rem;
+  font-size: 1.1rem;
+}
+
+/* Sections */
+.vsp-section-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 5rem 2rem;
+}
+
+.vsp-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #8a9ba8;
+  margin: 0 0 1rem 0;
+}
+
+.vsp-section-title {
+  font-size: 2.2rem;
+  line-height: 1.3;
+  font-weight: 400;
+  color: #1e3a5f;
+  margin: 0 0 2.5rem 0;
+  max-width: 680px;
+}
+
+/* About */
+.vsp-about {
+  background-color: #ffffff;
+}
+
+.vsp-about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.vsp-about-grid p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #5a6c7d;
+  margin: 0;
+}
+
+/* Features */
+.vsp-features {
+  background-color: #f9fafc;
+}
+
+.vsp-features-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.vsp-feature-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #e8edf2;
+  padding: 2.5rem;
+  transition: all 0.3s ease;
+}
+
+.vsp-feature-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transform: translateY(-4px);
+}
+
+.vsp-feature-number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #d6eaf8;
+  margin-bottom: 1rem;
+  line-height: 1;
+}
+
+.vsp-feature-card h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1e3a5f;
+  margin: 0 0 0.75rem 0;
+}
+
+.vsp-feature-card p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #5a6c7d;
+  margin: 0;
+}
+
+/* Quote */
+.vsp-quote {
+  background-color: #1e3a5f;
+}
+
+.vsp-quote .vsp-section-container {
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.vsp-blockquote {
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+  font-style: italic;
+  margin: 0 0 1.5rem 0;
+  border: none;
+  padding: 0;
+}
+
+.vsp-quote-author {
+  font-size: 0.9rem;
+  color: #a8c4d8;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+/* Audience */
+.vsp-audience {
+  background-color: #ffffff;
+}
+
+.vsp-audience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 680px;
+}
+
+.vsp-audience-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.05rem;
+  color: #1e3a5f;
+  padding: 1.25rem 1.5rem;
+  background-color: #f9fafc;
+  border-radius: 12px;
+  border-left: 3px solid #4a7c9e;
+}
+
+/* Final CTA */
+.vsp-final-cta {
+  background-color: #f9fafc;
+  text-align: center;
+}
+
+.vsp-final-title {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #1e3a5f;
+  margin: 0 0 1rem 0;
+}
+
+.vsp-final-description {
+  font-size: 1.1rem;
+  color: #5a6c7d;
+  margin: 0 0 2rem 0;
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+  .vsp-hero-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .vsp-hero-image {
+    max-width: 340px;
+    margin: 0 auto;
+  }
+
+  .vsp-about-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .vsp-features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .vsp-section-title {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .vsp-hero {
+    padding: 4rem 1.5rem;
+  }
+
+  .vsp-title {
+    font-size: 1.9rem;
+  }
+
+  .vsp-blockquote {
+    font-size: 1.35rem;
+  }
+
+  .vsp-cta-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .vsp-section-container {
+    padding: 4rem 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .vsp-title {
+    font-size: 1.6rem;
+  }
+
+  .vsp-final-title {
+    font-size: 1.75rem;
+  }
+}

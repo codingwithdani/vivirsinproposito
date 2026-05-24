@@ -1,4 +1,14 @@
-function BookCard({ badge, badgeType, coverImage, category, title, intro, features }) {
+import { useNavigate } from 'react-router-dom'
+
+function BookCard({ badge, badgeType, coverImage, category, title, intro, features, slug }) {
+  const navigate = useNavigate()
+
+  const handleCta = () => {
+    if (slug) {
+      navigate(`/${slug}`)
+    }
+  }
+
   return (
     <div className="book-card">
       <div className="book-image-container">
@@ -17,7 +27,7 @@ function BookCard({ badge, badgeType, coverImage, category, title, intro, featur
             <li key={index}>{feature}</li>
           ))}
         </ul>
-        <button className="book-cta">
+        <button className="book-cta" onClick={handleCta}>
           ¡Quiero este libro! <span className="arrow">→</span>
         </button>
       </div>

@@ -6,6 +6,7 @@ function Books() {
     {
       badge: 'NUEVO',
       badgeType: '',
+      slug: 'vivir-sin-proposito',
       coverImage: '/VivirSinProposito.jpg',
       category: 'DESARROLLO PERSONAL · FILOSOFÍA DE VIDA',
       title: '¿Y si realmente no es necesario tener un Propósito para ser feliz?',

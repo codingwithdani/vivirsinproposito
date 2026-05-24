@@ -1,21 +1,26 @@
+import { useNavigate, useLocation } from 'react-router-dom'
 import './Header.css'
 
 function Header() {
+  const navigate = useNavigate()
+  const location = useLocation()
+
   const handleScroll = (e, targetId) => {
     e.preventDefault()
+    if (location.pathname !== '/') {
+      navigate(`/#${targetId}`)
+      return
+    }
     const element = document.getElementById(targetId)
     if (element) {
-      element.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-      })
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' })
     }
   }
 
   return (
     <header className="header">
       <div className="header-container">
-        <div className="logo">
+        <div className="logo" onClick={() => navigate('/')} style={{ cursor: 'pointer' }}>
           <span className="logo-prefix">Psic.</span>
           <span className="logo-name">Carlos A. Aguilera (Malavé)</span>
         </div>
