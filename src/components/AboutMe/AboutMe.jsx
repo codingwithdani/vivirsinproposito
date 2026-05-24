@@ -55,7 +55,7 @@ function AboutMe() {
               <div className="feature-content">
                 <h3 className="feature-title">Autor publicado</h3>
                 <p className="feature-description">
-                  Dos libros sobre bienestar, propósito y violencia organizacional
+                  Libros sobre bienestar, propósito y violencia organizacional
                 </p>
               </div>
             </div>
