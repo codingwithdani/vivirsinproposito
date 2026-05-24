@@ -4,19 +4,19 @@ function Services() {
   const services = [
     {
       title: 'Conferencias y experiencias',
-      description: 'Ponencias para congresos, foros académicos y eventos empresariales. Espacios de pensamiento crítico que desafían audiencias en temas como el éxito sin propósito, el poder en la cultura organizacional y las dinámicas humanas destructivas.'
+      description: 'Espacios de pensamiento crítico que desafían audiencias.'
     },
     {
       title: 'Consultoria organizacional',
-      description: 'Acompañamiento estratégico para identificar grietas en la organización y co-crear entornos laborales saludables. Diagnósticos de cultura, auditorías de comunicación, prevención de violencia y formación de líderes conscientes.'
+      description: 'Acompañamiento estratégico para identificar grietas en la organización y co-crear entornos laborales saludables.'
     },
     {
       title: 'Medios y colaboraciones',
-      description: 'Especialista disponible para podcasts, medios digitales, radio y televisión. Abordo temas complejos de psicología organizacional y bienestar de forma accesible a través de entrevistas, paneles, artículos y proyectos de co-creación.'
+      description: 'Especialista disponible para podcasts, medios digitales, radio y televisión.'
     },
     {
       title: 'Libros, Programas y Experiencias',
-      description: 'Diseño espacios de aprendizaje y reflexión colectiva que combinan teoría con acción real. Talleres, clubes de lectura, cursos híbridos y experiencias educativas a medida para desafiar la mente y expandir la conciencia.'
+      description: 'Diseño espacios de aprendizaje y reflexión colectiva que combinan teoría con práctica.'
     }
   ]
 
