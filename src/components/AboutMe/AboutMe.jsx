@@ -44,7 +44,7 @@ function AboutMe() {
           <div className="about-me-features">
             <div className="feature">
               <div className="feature-content">
-                <h3 className="feature-title">Consultoría empresarial y personal</h3>
+                <h3 className="feature-title">Consultoría personal y empresarial</h3>
                 <p className="feature-description">
                   Capacitación a líderes y equipos en México
                 </p>
