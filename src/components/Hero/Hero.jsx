@@ -21,7 +21,7 @@ function Hero() {
           </div>
 
           <h1 className="hero-title">
-            Desafía tus creencias
+            Desafía tus creencias.
             <br />
             <span className="hero-title-accent">Explora nuevas formas de vivir.</span>
           </h1>
@@ -40,10 +40,9 @@ function Hero() {
           </div>
 
           <div className="hero-tags">
-            <span className="tag">NOM-035</span>
-            <span className="tag">Psicología organizacional</span>
-            <span className="tag">Prevención de la violencia laboral</span>
+            <span className="tag">Empoderamiento ante la violencia laboral</span>
             <span className="tag">Efectividad organizacional</span>
+            <span className="tag">Promoción del bienestar existencial</span>
           </div>
         </div>
 

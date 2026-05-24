@@ -17,7 +17,7 @@ function Header() {
       <div className="header-container">
         <div className="logo">
           <span className="logo-prefix">Psic.</span>
-          <span className="logo-name">Carlos Aguilera</span>
+          <span className="logo-name">Carlos A. Aguilera (Malavé)</span>
         </div>
 
         <nav className="nav">
@@ -36,7 +36,7 @@ function Header() {
         </nav>
 
         <button className="cta-button" onClick={(e) => handleScroll(e, 'contacto')}>
-          Agenda una llamada
+          Colaboremos juntos
         </button>
       </div>
     </header>

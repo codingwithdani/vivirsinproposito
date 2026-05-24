@@ -22,11 +22,11 @@ function Books() {
       badgeType: 'bestseller',
       coverImage: '/ganaleAlDepredador.jpg',
       category: 'PSICOLOGÍA LABORAL · AUTOPROTECCIÓN',
-      title: 'Deja de ser víctima. Empieza a actuar.',
+      title: '¿Y si nadie viene a rescatarte, qué harías ante un agresor?',
       intro: 'La violencia en el trabajo no siempre se ve. A veces es sutil, silenciosa, sistemática. Este libro te da las herramientas para reconocerla, enfrentarla y salir adelante.',
       features: [
         'Identifica patrones de violencia directa y sutil en tu entorno',
-        'Aprende estrategias concretas para salir del rol de víctima',
+        'Aprende estrategias concretas de empoderamiento ante el agresor',
         'Toma medidas preventivas antes de que el daño se profundice',
         'Escrito de forma amena, como un juego con reglas claras para ganar'
       ]

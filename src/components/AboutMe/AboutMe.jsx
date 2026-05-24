@@ -20,26 +20,29 @@ function AboutMe() {
 
           <div className="about-me-text">
             <p>
-              Comencé mi carrera en la industria petrolera, una de las entornos laborales más exigentes del país, donde diseñé e
-              implementé programas de prevención e intervención de factores psicosociales. Fue ahí donde me especialicé en
-              violencia y acoso laboral, no desde la teoría, sino desde la realidad de las organizaciones.
+              Durante años trabajé en algunos de los entornos laborales más exigentes del país. Ahí descubrí algo que rara vez se dice abiertamente: muchas personas no se quiebran por falta de capacidad, sino por vivir demasiado tiempo bajo presión, miedo o desgaste emocional.
             </p>
 
             <p>
-              Posteriormente, me desempeñé como consultor y capacitador para empresas en toda la República Mexicana,
-              ayudando a líderes y equipos a construir culturas de comunicación efectiva y gestión genuina.
+              Desde entonces, mi trabajo ha girado alrededor de una misma pregunta:
             </p>
 
             <p>
-              Hoy, además de mi rol como Subdirector Regional en Qualitas —donde superviso el cumplimiento de la NOM-035—,
-              dedico mi tiempo a escribir, conferenciar y acompañar a quienes buscan transformar sus entornos laborales y su
-              vida personal.
+              <em>¿Qué le ocurre al ser humano cuando vive constantemente obligado a resistir?</em>
+            </p>
+
+            <p>
+              A veces esa presión proviene de organizaciones violentas.<br />
+              Otras veces nace de la necesidad de demostrar valor, encontrar propósito o sostener una versión idealizada de uno mismo.
+            </p>
+
+            <p>
+              Como psicólogo, consultor y autor, exploro ambas dimensiones a través de conferencias, libros y espacios de reflexión que combinan experiencia real, pensamiento crítico y exploración humana.
             </p>
           </div>
 
           <div className="about-me-features">
             <div className="feature">
-              <div className="feature-icon">🏭</div>
               <div className="feature-content">
                 <h3 className="feature-title">Industria petrolera</h3>
                 <p className="feature-description">
@@ -49,7 +52,6 @@ function AboutMe() {
             </div>
 
             <div className="feature">
-              <div className="feature-icon">💼</div>
               <div className="feature-content">
                 <h3 className="feature-title">Consultoría empresarial</h3>
                 <p className="feature-description">
@@ -59,17 +61,6 @@ function AboutMe() {
             </div>
 
             <div className="feature">
-              <div className="feature-icon">📋</div>
-              <div className="feature-content">
-                <h3 className="feature-title">NOM-035</h3>
-                <p className="feature-description">
-                  Implementación y supervisión en entornos corporativos
-                </p>
-              </div>
-            </div>
-
-            <div className="feature">
-              <div className="feature-icon">✍️</div>
               <div className="feature-content">
                 <h3 className="feature-title">Autor publicado</h3>
                 <p className="feature-description">
