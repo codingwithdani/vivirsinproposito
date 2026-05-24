@@ -27,12 +27,12 @@ function AboutMe() {
               Desde entonces, mi trabajo ha girado alrededor de una misma pregunta:
             </p>
 
-            <p>
-              <em>¿Qué le ocurre al ser humano cuando vive constantemente obligado a resistir?</em>
+            <p className="about-me-question">
+              ¿Qué le ocurre al ser humano cuando vive constantemente obligado a resistir?
             </p>
 
             <p>
-              A veces esa presión proviene de organizaciones violentas.<br />
+              A veces esa presión proviene de organizaciones violentas.
               Otras veces nace de la necesidad de demostrar valor, encontrar propósito o sostener una versión idealizada de uno mismo.
             </p>
 
