@@ -34,10 +34,6 @@ function Header() {
             CONTACTO
           </a>
         </nav>
-
-        <button className="cta-button" onClick={(e) => handleScroll(e, 'contacto')}>
-          Colaboremos juntos
-        </button>
       </div>
     </header>
   )
