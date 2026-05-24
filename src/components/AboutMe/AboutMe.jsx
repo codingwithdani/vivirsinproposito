@@ -20,7 +20,7 @@ function AboutMe() {
 
           <div className="about-me-text">
             <p>
-              Durante años trabajé en algunos de los entornos laborales más exigentes del país. Ahí descubrí algo que rara vez se dice abiertamente: muchas personas no se quiebran por falta de capacidad, sino por vivir demasiado tiempo bajo presión, miedo o desgaste emocional.
+              Durante años trabajé en algunos de los entornos laborales más exigentes del país. En ese camino descubrí algo que rara vez se dice abiertamente: muchas personas no se quiebran por falta de capacidad, sino por vivir demasiado tiempo bajo presión, miedo o desgaste emocional.
             </p>
 
             <p>
