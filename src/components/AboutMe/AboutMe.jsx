@@ -44,16 +44,7 @@ function AboutMe() {
           <div className="about-me-features">
             <div className="feature">
               <div className="feature-content">
-                <h3 className="feature-title">Industria petrolera</h3>
-                <p className="feature-description">
-                  Prevención e intervención psicosocial en entornos de alta presión
-                </p>
-              </div>
-            </div>
-
-            <div className="feature">
-              <div className="feature-content">
-                <h3 className="feature-title">Consultoría empresarial</h3>
+                <h3 className="feature-title">Consultoría empresarial y personal</h3>
                 <p className="feature-description">
                   Capacitación a líderes y equipos en México
                 </p>
