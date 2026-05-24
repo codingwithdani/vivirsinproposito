@@ -46,7 +46,7 @@ function AboutMe() {
               <div className="feature-content">
                 <h3 className="feature-title">Consultoría personal y empresarial</h3>
                 <p className="feature-description">
-                  Capacitación a líderes y equipos en México
+                  Coaching de vida y capacitación de equipos en México
                 </p>
               </div>
             </div>
