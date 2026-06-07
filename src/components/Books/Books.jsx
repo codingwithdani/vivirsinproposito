@@ -43,7 +43,7 @@ function Books() {
              Ideas para mentes inquietas
           </h2>
           <p className="books-description">
-            Escritos desde la experiencia real, con lenguaje accesible y reflexiones
+            Escritos desde la experiencia, con lenguaje accesible y reflexiones
             que te invitan a actuar.
           </p>
         </div>

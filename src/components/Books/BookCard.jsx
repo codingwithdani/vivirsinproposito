@@ -28,7 +28,7 @@ function BookCard({ badge, badgeType, coverImage, category, title, intro, featur
           ))}
         </ul>
         <button className="book-cta" onClick={handleCta}>
-          ¡Quiero este libro! <span className="arrow">→</span>
+          ¡Lo quiero! <span className="arrow">→</span>
         </button>
       </div>
     </div>

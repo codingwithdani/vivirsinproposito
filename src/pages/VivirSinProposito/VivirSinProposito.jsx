@@ -30,14 +30,16 @@ function VivirSinProposito() {
             <div className="vsp-hero-content">
               <p className="vsp-category">DESARROLLO PERSONAL · FILOSOFÍA DE VIDA</p>
               <h1 className="vsp-title">
-                ¿Y si realmente no es necesario tener un Propósito para ser feliz?
+                ¿Y si la presión de tener un propósito es, precisamente, lo que te impide vivir?
               </h1>
+
+              <div className="vsp-summary">
+                <p>Desde que somos pequeños, el mundo nos dice que necesitamos un propósito. Una misión. Un legado. Y si no lo tienes, algo está mal en ti.</p>
+                <p>Este libro propone algo diferente: que esa búsqueda constante de sentido puede ser, paradójicamente, lo que más nos aleja de vivir. No es un llamado a la pasividad ni al nihilismo. Es una invitación a explorar qué ocurre cuando soltamos la presión de tener que ser alguien.</p>
+                <p>A través de personajes icónicos de la cultura popular, reflexiones filosóficas y psicología aplicada, Carlos A. Aguilera (Malavé) construye un diálogo íntimo que abre posibilidades en lugar de cerrarlas.</p>
+              </div>
+
               <p className="vsp-author">Carlos A. Aguilera (Malavé)</p>
-
-              <p className="vsp-intro">
-                Vivimos bombardeados por la idea de que debemos tener un gran propósito, dejar un legado y trascender. Pero, ¿qué pasa si esa presión es, en sí misma, lo que te impide vivir plenamente?
-              </p>
-
               <div className="vsp-cta-group">
                 <button className="vsp-btn-primary">
                   Quiero este libro →
@@ -50,8 +52,18 @@ function VivirSinProposito() {
           </div>
         </section>
 
+                {/* Cita destacada */}
+        <section className="vsp-quote">
+          <div className="vsp-section-container">
+            <blockquote className="vsp-blockquote">
+              "¿Qué pasa si el problema no eres tú, sino la pregunta que te han enseñado a hacerte?"
+            </blockquote>
+            <p className="vsp-quote-author">— Carlos A. Aguilera (Malavé)</p>
+          </div>
+        </section>
+
         {/* De qué trata */}
-        <section className="vsp-about">
+        {/* <section className="vsp-about">
           <div className="vsp-section-container">
             <p className="vsp-label">DE QUÉ TRATA</p>
             <h2 className="vsp-section-title">Un libro que desafía lo que creemos saber sobre la felicidad</h2>
@@ -67,17 +79,9 @@ function VivirSinProposito() {
               </p>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        {/* Cita destacada */}
-        <section className="vsp-quote">
-          <div className="vsp-section-container">
-            <blockquote className="vsp-blockquote">
-              "¿Qué pasa si el problema no eres tú, sino la pregunta que te han enseñado a hacerte?"
-            </blockquote>
-            <p className="vsp-quote-author">— Carlos A. Aguilera (Malavé)</p>
-          </div>
-        </section>
+
 
         {/* Para quién es */}
         {/* <section className="vsp-audience">

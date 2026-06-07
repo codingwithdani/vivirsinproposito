@@ -33,7 +33,7 @@ function Header() {
             LIBROS
           </a>
           <a href="#conferencias" className="nav-link" onClick={(e) => handleScroll(e, 'conferencias')}>
-            CONFERENCIAS
+            COLABORACIONES
           </a>
           <a href="#contacto" className="nav-link" onClick={(e) => handleScroll(e, 'contacto')}>
             CONTACTO

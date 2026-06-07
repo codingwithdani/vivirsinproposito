@@ -15,11 +15,6 @@ function Hero() {
     <section className="hero">
       <div className="hero-container">
         <div className="hero-content">
-          <div className="hero-badge">
-            <span className="badge-dot"></span>
-            PSICÓLOGO · AUTOR · CONFERENCISTA
-          </div>
-
           <h1 className="hero-title">
             Desafía tus creencias.
             <br />
@@ -27,7 +22,7 @@ function Hero() {
           </h1>
 
           <p className="hero-description">
-          Carlos A. Aguilera (Malavé) es autor, psicólogo y estratega creativo. Su trabajo integra pensamiento crítico, narrativa cultural y psicología aplicada para cuestionar mandatos sociales, explorar nuevas formas de existir y ofrecer herramientas para afrontar los diversos desafíos de la vida.
+            Carlos A. Aguilera (Malavé) explora las ideas y creencias que influyen en nuestra forma de vivir. A través de sus libros y colaboraciones, invita a cuestionar aquello que solemos dar por cierto y a descubrir nuevas maneras de comprender los desafíos humanos.
           </p>
 
           <div className="hero-cta">

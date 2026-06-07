@@ -64,6 +64,20 @@
   font-style: italic;
 }
 
+.vsp-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 0 0 1.5rem 0;
+}
+
+.vsp-summary p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #5a6c7d;
+  margin: 0;
+}
+
 .vsp-intro {
   font-size: 1.1rem;
   line-height: 1.75;

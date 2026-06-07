@@ -20,11 +20,11 @@ function AboutMe() {
 
           <div className="about-me-text">
             <p>
-              Durante años trabajé en algunos de los entornos laborales más exigentes del país. En ese camino descubrí algo que rara vez se dice abiertamente: muchas personas no se quiebran por falta de capacidad, sino por vivir demasiado tiempo bajo presión, miedo o desgaste emocional.
+              Gran parte de mi trayectoria laboral transcurrió en entornos altamente exigentes, donde el desgaste emocional podía convertirse en parte de la rutina. Esta experiencia me permitió observar cómo muchas personas normalizamos formas sutiles de violencia para demostrar valor o sostener expectativas que, en el fondo, no siempre sentimos como propias.
             </p>
 
             <p>
-              Desde entonces, mi trabajo ha girado alrededor de una misma pregunta:
+              Desde entonces, mi trabajo ha girado alrededor de esta pregunta:
             </p>
 
             <p className="about-me-question">
@@ -32,30 +32,33 @@ function AboutMe() {
             </p>
 
             <p>
-              A veces esa presión proviene de organizaciones violentas.
-              Otras veces nace de la necesidad de demostrar valor, encontrar propósito o sostener una versión idealizada de uno mismo.
+              Las personas no siempre se quiebran por falta de voluntad o capacidad. También pueden quebrarse por vivir demasiado tiempo bajo presión, tanto aquella que proviene del entorno como la que nace de la autoexigencia.
+            </p>
+
+            <p className="about-me-question">
+              ¿Vale la pena asumir ese costo para mantener una versión idealizada de nosotros mismos?
             </p>
 
             <p>
-              Como psicólogo, consultor y autor, exploro ambas dimensiones a través de conferencias, libros y espacios de reflexión que combinan experiencia, pensamiento crítico y exploración humana.
+              De esas preguntas nacieron mis libros. Y también la forma en que acompaño a personas y equipos: no desde las respuestas, sino desde la disposición a mirar más de cerca lo que preferimos no ver.
             </p>
           </div>
 
           <div className="about-me-features">
             <div className="feature">
               <div className="feature-content">
-                <h3 className="feature-title">Consultoría personal y empresarial</h3>
+                <h3 className="feature-title">Con personas</h3>
                 <p className="feature-description">
-                  Coaching de vida y capacitación de equipos en México
+                  Acompañamiento individual para quienes están revisando creencias, decisiones o estilos de vida que ya no les satisfacen.
                 </p>
               </div>
             </div>
 
             <div className="feature">
               <div className="feature-content">
-                <h3 className="feature-title">Autor publicado</h3>
+                <h3 className="feature-title">Con equipos y empresas</h3>
                 <p className="feature-description">
-                  Libros sobre bienestar, propósito y violencia organizacional
+                  Abordaje para identificar y resolver los puntos de fricción organizacional y de las dinámicas humanas.
                 </p>
               </div>
             </div>
