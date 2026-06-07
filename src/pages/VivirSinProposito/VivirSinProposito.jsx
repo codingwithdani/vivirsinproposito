@@ -22,7 +22,8 @@ function VivirSinProposito() {
         <meta property="og:url" content="https://psicarlosaguilera.com/vivir-sin-proposito" />
         <meta property="og:title" content="Vivir sin Propósito — Carlos A. Aguilera (Malavé)" />
         <meta property="og:description" content="¿Y si la presión de tener un propósito es lo que te impide vivir? Un libro que cuestiona el mandato del éxito a través de filosofía, psicología y cultura popular." />
-        <meta property="og:image" content="https://psicarlosaguilera.com/VivirSinProposito.webp" />
+        <meta property="og:image" content="https://carlos-aguilera.vercel.app/VivirSinProposito.jpg" />
+        <meta property="og:image:type" content="image/jpeg" />
 <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebPage",
