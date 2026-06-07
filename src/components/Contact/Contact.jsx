@@ -13,11 +13,32 @@ function Contact() {
           </p>
 
           <div className="contact-methods">
-<div className="contact-method">
+            <div className="contact-method">
               <div className="method-icon">🌐</div>
               <div className="method-info">
                 <p className="method-label">DISPONIBILIDAD</p>
                 <p className="method-value">México · Presencial y remoto</p>
+              </div>
+            </div>
+
+            <div className="contact-method">
+              <div className="method-icon method-icon--instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                  <circle cx="12" cy="12" r="4"/>
+                  <circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none"/>
+                </svg>
+              </div>
+              <div className="method-info">
+                <p className="method-label">INSTAGRAM</p>
+                <a
+                  href="https://www.instagram.com/psic.carlosaguilera?igsh=NWRod3RxN2V4Z3N4"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="method-link"
+                >
+                  @psic.carlosaguilera
+                </a>
               </div>
             </div>
           </div>

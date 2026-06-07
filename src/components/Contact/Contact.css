@@ -82,6 +82,23 @@
   margin: 0;
 }
 
+.method-icon--instagram {
+  color: #4a7c9e;
+  background-color: #e8f2f7;
+}
+
+.method-link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1e3a5f;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.method-link:hover {
+  opacity: 0.75;
+}
+
 .contact-form-wrapper {
   background-color: #ffffff;
   border-radius: 16px;

@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 import './App.css'
 import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
@@ -12,6 +13,15 @@ import VivirSinProposito from './pages/VivirSinProposito/VivirSinProposito'
 function Home() {
   return (
     <>
+      <Helmet>
+        <title>Carlos A. Aguilera (Malavé) | Autor y Conferencista</title>
+        <meta name="description" content="Carlos A. Aguilera (Malavé) explora las ideas y creencias que influyen en nuestra forma de vivir. Autor de Vivir sin Propósito y Gánale al depredador. Libros, colaboraciones y acompañamiento." />
+        <link rel="canonical" href="https://psicarlosaguilera.com/" />
+        <meta property="og:url" content="https://psicarlosaguilera.com/" />
+        <meta property="og:title" content="Carlos A. Aguilera (Malavé) | Autor y Conferencista" />
+        <meta property="og:description" content="Carlos A. Aguilera (Malavé) explora las ideas y creencias que influyen en nuestra forma de vivir. Autor de Vivir sin Propósito y Gánale al depredador." />
+        <meta property="og:image" content="https://psicarlosaguilera.com/carlos-aguilera.webp" />
+      </Helmet>
       <Header />
       <main>
         <Hero />

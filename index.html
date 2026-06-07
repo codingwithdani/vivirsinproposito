@@ -3,57 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Primary SEO -->
-    <title>Carlos A. Aguilera (Malavé) | Psicólogo, Autor y Conferencista</title>
-    <meta name="description" content="Psicólogo, consultor y autor mexicano. Explora el bienestar existencial, la violencia laboral y el propósito de vida a través de conferencias, libros y espacios de reflexión. Autor de '¿Y si realmente no es necesario tener un Propósito para ser feliz?' y 'Gánale al depredador'." />
-    <meta name="keywords" content="Carlos Aguilera Malavé, psicólogo conferencista México, violencia laboral, empoderamiento, bienestar existencial, vivir sin propósito, Gánale al depredador, libro propósito, psicología organizacional" />
+    <title>Carlos A. Aguilera (Malavé) | Autor y Conferencista</title>
+    <meta name="description" content="Carlos A. Aguilera (Malavé) explora las ideas y creencias que influyen en nuestra forma de vivir. Autor de Vivir sin Propósito y Gánale al depredador. Libros, colaboraciones y acompañamiento." />
+    <meta name="keywords" content="Carlos Aguilera Malavé, autor conferencista México, vivir sin propósito, Gánale al depredador, filosofía de vida, desarrollo personal, psicología organizacional" />
     <meta name="author" content="Carlos A. Aguilera (Malavé)" />
-    <link rel="canonical" href="https://psicarlosaguilera.com" />
+    <link rel="canonical" href="https://psicarlosaguilera.com/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Carlos A. Aguilera (Malavé)" />
+    <meta property="og:url" content="https://psicarlosaguilera.com/" />
+    <meta property="og:title" content="Carlos A. Aguilera (Malavé) | Autor y Conferencista" />
+    <meta property="og:description" content="Carlos A. Aguilera (Malavé) explora las ideas y creencias que influyen en nuestra forma de vivir. Autor de Vivir sin Propósito y Gánale al depredador." />
+    <meta property="og:image" content="https://psicarlosaguilera.com/carlos-aguilera.webp" />
+    <meta property="og:image:width" content="960" />
+    <meta property="og:image:height" content="960" />
+    <meta property="og:locale" content="es_MX" />
 
 
-    <!-- Schema.org: Person -->
+<!-- Schema.org -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Carlos A. Aguilera (Malavé)",
-      "jobTitle": "Psicólogo, Autor y Conferencista",
-      "sameAs": ["https://www.linkedin.com/in/aguileracarlos/"],
-      "knowsAbout": ["Psicología organizacional", "Violencia laboral", "Bienestar existencial", "Propósito de vida"],
-      "nationality": "MX"
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://psicarlosaguilera.com/#person",
+          "name": "Carlos A. Aguilera (Malavé)",
+          "jobTitle": "Autor y Conferencista",
+          "url": "https://psicarlosaguilera.com/",
+          "sameAs": ["https://www.linkedin.com/in/aguileracarlos/", "https://www.instagram.com/psic.carlosaguilera"],
+          "knowsAbout": ["Psicología organizacional", "Violencia laboral", "Bienestar existencial", "Propósito de vida"],
+          "nationality": "MX"
+        },
+        {
+          "@type": "Book",
+          "name": "Vivir sin Propósito",
+          "author": { "@id": "https://psicarlosaguilera.com/#person" },
+          "genre": "Desarrollo personal, Filosofía de vida",
+          "inLanguage": "es",
+          "url": "https://psicarlosaguilera.com/vivir-sin-proposito"
+        },
+        {
+          "@type": "Book",
+          "name": "Gánale al depredador",
+          "author": { "@id": "https://psicarlosaguilera.com/#person" },
+          "genre": "Psicología laboral, Autoprotección",
+          "inLanguage": "es",
+          "url": "https://psicarlosaguilera.com/#libros"
+        }
+      ]
     }
-    </script>
-
-    <!-- Schema.org: Books -->
-    <script type="application/ld+json">
-    [
-      {
-        "@context": "https://schema.org",
-        "@type": "Book",
-        "name": "¿Y si realmente no es necesario tener un Propósito para ser feliz?",
-        "author": {
-          "@type": "Person",
-          "name": "Carlos A. Aguilera (Malavé)"
-        },
-        "genre": "Desarrollo personal, Filosofía de vida",
-        "inLanguage": "es",
-        "url": "https://psicarlosaguilera.com/#libros"
-      },
-      {
-        "@context": "https://schema.org",
-        "@type": "Book",
-        "name": "Gánale al depredador",
-        "author": {
-          "@type": "Person",
-          "name": "Carlos A. Aguilera (Malavé)"
-        },
-        "genre": "Psicología laboral, Autoprotección",
-        "inLanguage": "es",
-        "url": "https://psicarlosaguilera.com/#libros"
-      }
-    ]
     </script>
   </head>
   <body>
