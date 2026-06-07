@@ -289,6 +289,102 @@
   margin: 0;
 }
 
+/* Press quote */
+.vsp-press-quote {
+  background-color: #1e3a5f;
+  text-align: center;
+}
+
+.vsp-press-blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #ffffff;
+  margin: 0 auto 1.5rem auto;
+  max-width: 800px;
+  border: none;
+  padding: 0;
+}
+
+.vsp-press-source {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0 0 2rem 0;
+}
+
+.vsp-press-link {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1.5px solid rgba(255, 255, 255, 0.4);
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.2s ease;
+}
+
+.vsp-press-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Interview card (inside reviews section) */
+.vsp-interview-card {
+  margin-bottom: 3rem;
+  max-width: 720px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 1px solid #e8edf2;
+  border-radius: 16px;
+  padding: 3rem;
+  text-align: center;
+}
+
+.vsp-interview-quote {
+  font-size: 1.35rem;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.7;
+  color: #1e3a5f;
+  margin: 0 0 1.5rem 0;
+  border: none;
+  padding: 0;
+}
+
+.vsp-interview-quote::before {
+  content: '"';
+  font-size: 3rem;
+  color: #4a7c9e;
+  line-height: 0;
+  vertical-align: -0.6rem;
+  margin-right: 0.15rem;
+}
+
+.vsp-interview-meta {
+  font-size: 0.9rem;
+  color: #7a8a99;
+  margin: 0 0 2rem 0;
+}
+
+.vsp-interview-link {
+  display: inline-block;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #4a7c9e;
+  text-decoration: none;
+  border: 1.5px solid #4a7c9e;
+  border-radius: 30px;
+  padding: 0.6rem 1.5rem;
+  transition: all 0.2s ease;
+}
+
+.vsp-interview-link:hover {
+  background-color: #4a7c9e;
+  color: #ffffff;
+}
+
 /* Final CTA */
 .vsp-final-cta {
   background-color: #ffffff;

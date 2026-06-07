@@ -173,6 +173,24 @@ function VivirSinProposito() {
           </div>
         </section>
 
+        {/* Entrevista en prensa */}
+        <section className="vsp-press-quote">
+          <div className="vsp-section-container">
+            <blockquote className="vsp-press-blockquote">
+              "Un texto tan riguroso como cercano, que se rehúsa a simplificar la complejidad de lo humano."
+            </blockquote>
+            <p className="vsp-press-source">— Jorge Gómez Jiménez · <em>Letralia, Tierra de Letras</em></p>
+            <a
+              href="https://letralia.com/entrevistas/2025/10/05/malave/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="vsp-press-link"
+            >
+              Leer entrevista completa →
+            </a>
+          </div>
+        </section>
+
         {/* CTA final */}
         <section className="vsp-final-cta">
           <div className="vsp-section-container">
