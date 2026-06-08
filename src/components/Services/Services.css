@@ -144,15 +144,6 @@
   box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
 }
 
-.services-button .arrow {
-  font-size: 1.25rem;
-  transition: transform 0.3s ease;
-}
-
-.services-button:hover .arrow {
-  transform: translateX(4px);
-}
-
 /* Responsive */
 
 @media (max-width: 768px) {

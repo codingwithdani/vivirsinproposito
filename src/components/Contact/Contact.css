@@ -189,15 +189,6 @@
   box-shadow: 0 6px 16px rgba(30, 58, 95, 0.3);
 }
 
-.form-submit .arrow {
-  font-size: 1.25rem;
-  transition: transform 0.3s ease;
-}
-
-.form-submit:hover .arrow {
-  transform: translateX(4px);
-}
-
 .form-privacy {
   font-size: 0.8rem;
   color: #7a8a99;

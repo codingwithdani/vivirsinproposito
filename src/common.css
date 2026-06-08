@@ -89,14 +89,6 @@
   box-shadow: 0 6px 12px rgba(30, 58, 95, 0.2);
 }
 
-.btn .arrow {
-  font-size: 1.25rem;
-  transition: transform 0.3s ease;
-}
-
-.btn:hover .arrow {
-  transform: translateX(4px);
-}
 
 /* Tags - Small pill-shaped elements */
 .tag {

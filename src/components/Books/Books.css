@@ -176,15 +176,6 @@
   box-shadow: 0 6px 16px rgba(30, 58, 95, 0.3);
 }
 
-.book-cta .arrow {
-  font-size: 1.25rem;
-  transition: transform 0.3s ease;
-}
-
-.book-cta:hover .arrow {
-  transform: translateX(4px);
-}
-
 /* Responsive */
 @media (max-width: 968px) {
   .books-grid {
