@@ -205,6 +205,29 @@
   margin: 0;
 }
 
+.form-submit:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.form-error {
+  font-size: 0.8rem;
+  color: #c0392b;
+}
+
+.form-success {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  font-size: 1.1rem;
+  color: #1e3a5f;
+  text-align: center;
+  padding: 2rem;
+}
+
 /* Responsive */
 @media (max-width: 968px) {
   .contact-container {

@@ -1,6 +1,9 @@
+import { useForm, ValidationError } from '@formspree/react'
 import './Contact.css'
 
 function Contact() {
+  const [state, handleSubmit] = useForm(import.meta.env.VITE_FORMSPREE_ID)
+
   return (
     <section className="contact" id="contacto">
       <div className="contact-container">
@@ -45,72 +48,72 @@ function Contact() {
         </div>
 
         <div className="contact-form-wrapper">
-          <form className="contact-form">
-            <div className="form-row">
+          {state.succeeded ? (
+            <div className="form-success">
+              <p>¡Gracias por tu mensaje! Te responderé pronto.</p>
+            </div>
+          ) : (
+            <form className="contact-form" onSubmit={handleSubmit}>
+              <div className="form-row">
+                <div className="form-group">
+                  <label htmlFor="name">NOMBRE</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Tu nombre completo"
+                    required
+                  />
+                  <ValidationError field="name" errors={state.errors} className="form-error" />
+                </div>
+
+                <div className="form-group">
+                  <label htmlFor="company">EMPRESA</label>
+                  <input
+                    type="text"
+                    id="company"
+                    name="company"
+                    placeholder="Nombre de tu empresa"
+                  />
+                </div>
+              </div>
+
               <div className="form-group">
-                <label htmlFor="name">NOMBRE</label>
+                <label htmlFor="email">EMAIL</label>
                 <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Tu nombre completo"
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="tu@correo.com"
                   required
                 />
+                <ValidationError field="email" errors={state.errors} className="form-error" />
               </div>
+
 
               <div className="form-group">
-                <label htmlFor="company">EMPRESA</label>
-                <input
-                  type="text"
-                  id="company"
-                  name="company"
-                  placeholder="Nombre de tu empresa"
-                />
+                <label htmlFor="message">MENSAJE</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  placeholder="Cuéntame de qué trata tu proyecto o necesidad..."
+                  required
+                ></textarea>
+                <ValidationError field="message" errors={state.errors} className="form-error" />
               </div>
-            </div>
 
-            <div className="form-group">
-              <label htmlFor="email">EMAIL</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="tu@correo.com"
-                required
-              />
-            </div>
+              <ValidationError errors={state.errors} className="form-error" />
 
-            <div className="form-group">
-              <label htmlFor="interest">ME INTERESA</label>
-              <select id="interest" name="interest" required>
-                <option value="">Selecciona una opción</option>
-                <option value="conferencia">Contratar una conferencia</option>
-                <option value="taller">Taller o capacitación</option>
-                <option value="libro">Adquirir un libro</option>
-                <option value="colaboracion">Colaboración o proyecto</option>
-                <option value="otro">Otro</option>
-              </select>
-            </div>
+              <button type="submit" className="form-submit" disabled={state.submitting}>
+                {state.submitting ? 'Enviando...' : <>Enviar mensaje <span className="arrow">→</span></>}
+              </button>
 
-            <div className="form-group">
-              <label htmlFor="message">MENSAJE</label>
-              <textarea
-                id="message"
-                name="message"
-                rows="5"
-                placeholder="Cuéntame de qué trata tu proyecto o necesidad..."
-                required
-              ></textarea>
-            </div>
-
-            <button type="submit" className="form-submit">
-              Enviar mensaje <span className="arrow">→</span>
-            </button>
-
-            <p className="form-privacy">
-              🔒 Tu información es confidencial y nunca será compartida.
-            </p>
-          </form>
+              <p className="form-privacy">
+                🔒 Tu información es confidencial y nunca será compartida.
+              </p>
+            </form>
+          )}
         </div>
       </div>
     </section>
