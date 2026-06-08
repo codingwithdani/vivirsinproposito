@@ -20,7 +20,7 @@ function AboutMe() {
 
           <div className="about-me-text">
             <p>
-              Gran parte de mi trayectoria laboral transcurrió en entornos altamente exigentes, donde el desgaste emocional podía convertirse en parte de la rutina. Esta experiencia me permitió observar cómo muchas personas normalizamos formas sutiles de violencia para demostrar valor o sostener expectativas que, en el fondo, no siempre sentimos como propias.
+              Gran parte de mi trayectoria laboral transcurrió en entornos altamente exigentes, donde el desgaste emocional podía convertirse en parte de la rutina. Esta experiencia me permitió observar cómo muchas personas normalizamos formas sutiles de violencia para demostrar nuestro valor o sostener las expectativas de los demás.
             </p>
 
             <p>
@@ -28,19 +28,15 @@ function AboutMe() {
             </p>
 
             <p className="about-me-question">
-              ¿Qué le ocurre al ser humano cuando vive constantemente obligado a resistir?
-            </p>
-
-            <p>
-              Las personas no siempre se quiebran por falta de voluntad o capacidad. También pueden quebrarse por vivir demasiado tiempo bajo presión, tanto aquella que proviene del entorno como la que nace de la autoexigencia.
-            </p>
-
-            <p className="about-me-question">
               ¿Vale la pena asumir ese costo para mantener una versión idealizada de nosotros mismos?
             </p>
 
             <p>
-              De esas preguntas nacieron mis libros. Y también la forma en que acompaño a personas y equipos: no desde las respuestas, sino desde la disposición a mirar más de cerca lo que preferimos no ver.
+              Las personas no siempre se quiebran por falta de voluntad o capacidad. También pueden quebrarse por vivir demasiado tiempo bajo presión.
+            </p>
+
+            <p>
+              A partir de esas preguntas nacieron mis libros. Y también la forma en que acompaño a personas y equipos.
             </p>
           </div>
 
