@@ -68,7 +68,7 @@ function VivirSinProposito() {
               <p className="vsp-author">Carlos A. Aguilera (Malavé)</p>
               <div className="vsp-cta-group">
                 <button className="vsp-btn-primary">
-                  Quiero este libro →
+                  Quiero este libro
                 </button>
                 <button className="vsp-btn-secondary" onClick={() => navigate('/#contacto')}>
                   Contactar al autor
@@ -186,7 +186,7 @@ function VivirSinProposito() {
               rel="noopener noreferrer"
               className="vsp-press-link"
             >
-              Leer entrevista completa →
+              Leer entrevista completa
             </a>
           </div>
         </section>
@@ -199,7 +199,7 @@ function VivirSinProposito() {
               Disponible en formato físico y digital.
             </p>
             <button className="vsp-btn-primary vsp-btn-large">
-              Consigue tu ejemplar →
+              Consigue tu ejemplar
             </button>
           </div>
         </section>
