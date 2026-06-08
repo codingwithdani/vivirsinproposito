@@ -106,7 +106,7 @@ function Contact() {
               <ValidationError errors={state.errors} className="form-error" />
 
               <button type="submit" className="form-submit" disabled={state.submitting}>
-                {state.submitting ? 'Enviando...' : <>Enviar mensaje <span className="arrow">→</span></>}
+                {state.submitting ? 'Enviando...' : <>Enviar mensaje</>}
               </button>
 
               <p className="form-privacy">

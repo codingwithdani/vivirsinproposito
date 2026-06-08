@@ -70,7 +70,7 @@ function Services() {
  */}
         <div className="services-cta">
           <button className="services-button" onClick={handleScrollToContact}>
-            Solicitar información <span className="arrow">→</span>
+            Solicitar información 
           </button>
         </div>
       </div>
