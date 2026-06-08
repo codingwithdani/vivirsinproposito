@@ -2,7 +2,7 @@ import { useForm, ValidationError } from '@formspree/react'
 import './Contact.css'
 
 function Contact() {
-  const [state, handleSubmit] = useForm(import.meta.env.VITE_FORMSPREE_ID)
+  const [state, handleSubmit] = useForm('xrevqaky')
 
   return (
     <section className="contact" id="contacto">
