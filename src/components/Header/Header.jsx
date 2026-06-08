@@ -17,6 +17,11 @@ function Header() {
     }
   }
 
+  const redirect = (e) => {
+    e.preventDefault()
+    window.open('https://malavelico.substack.com/', '_blank')
+  }
+
   return (
     <header className="header">
       <div className="header-container">
@@ -28,6 +33,9 @@ function Header() {
         <nav className="nav">
           <a href="#sobre-mi" className="nav-link" onClick={(e) => handleScroll(e, 'sobre-mi')}>
             SOBRE MÍ
+          </a>
+          <a href="https://malavelico.substack.com/" className="nav-link" onClick={(e) => redirect(e)}>
+            BLOG
           </a>
           <a href="#libros" className="nav-link" onClick={(e) => handleScroll(e, 'libros')}>
             LIBROS
