@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 
-function BookCard({ badge, badgeType, coverImage, category, title, intro, features, slug }) {
+function BookCard({ badge, badgeType, coverImage, category, title, intro, features, slug, amazonLink }) {
   const navigate = useNavigate()
 
   const handleCta = () => {
@@ -27,9 +27,20 @@ function BookCard({ badge, badgeType, coverImage, category, title, intro, featur
             <li key={index}>{feature}</li>
           ))}
         </ul>
-        <button className="book-cta" onClick={handleCta}>
-          ¡Lo quiero!
-        </button>
+        {amazonLink ? (
+          <a
+            href={amazonLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="book-cta"
+          >
+            ¡Lo quiero!
+          </a>
+        ) : (
+          <button className="book-cta" onClick={handleCta}>
+            ¡Quiero saber más!
+          </button>
+        )}
       </div>
     </div>
   )
