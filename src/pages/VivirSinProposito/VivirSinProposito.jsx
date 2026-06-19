@@ -73,7 +73,7 @@ function VivirSinProposito() {
                   rel="noopener noreferrer"
                   className="vsp-btn-primary"
                 >
-                  Quiero este libro
+                  Comprar en Amazon
                 </a>
                 <button className="vsp-btn-secondary" onClick={() => navigate('/#contacto')}>
                   Contactar al autor
@@ -173,6 +173,14 @@ function VivirSinProposito() {
                     <p>No es un manual de instrucciones. Es una conversación honesta que invita a pensar, sentir y, sobre todo, a decidir qué quieres hacer con tu propia existencia.</p>
                   </div>
                 </div>
+                <a
+                  href="https://amzn.to/3Sxyw8P"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="vsp-btn-primary vsp-reviews-cta"
+                >
+                  ¡Quiero el libro!
+                </a>
               </div>
             </div>
           </div>
