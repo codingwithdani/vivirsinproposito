@@ -1,11 +1,13 @@
 .header {
-  background-color: #ffffff;
-  border-bottom: 1px solid #e5e5e5;
-  padding: 1rem 2rem;
+  background-color: rgba(250, 248, 244, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(26, 51, 80, 0.08);
+  padding: 1.1rem 2rem;
   position: sticky;
   top: 0;
   z-index: 100;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
 }
 
 .header-container {
@@ -14,24 +16,27 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .logo {
   display: flex;
   align-items: baseline;
   gap: 0.3rem;
-  font-size: 1.1rem;
+  cursor: pointer;
 }
 
 .logo-prefix {
-  color: #333333;
+  font-family: var(--font-body);
+  color: var(--mist);
   font-weight: 400;
+  font-size: 0.9rem;
 }
 
 .logo-name {
-  color: #4a7c9e;
+  font-family: var(--font-display);
+  color: var(--navy);
   font-weight: 400;
+  font-size: 1.05rem;
   font-style: italic;
 }
 
@@ -44,55 +49,34 @@
 }
 
 .nav-link {
-  color: #333333;
+  font-family: var(--font-body);
+  color: var(--slate);
   text-decoration: none;
-  font-size: 0.875rem;
+  font-size: 0.78rem;
   font-weight: 500;
-  letter-spacing: 0.5px;
-  transition: color 0.3s ease;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  transition: color 0.25s ease;
   position: relative;
 }
 
 .nav-link:hover {
-  color: #4a7c9e;
+  color: var(--navy);
 }
 
 .nav-link::after {
   content: '';
   position: absolute;
-  bottom: -5px;
+  bottom: -4px;
   left: 0;
   width: 0;
-  height: 2px;
-  background-color: #4a7c9e;
+  height: 1px;
+  background-color: var(--gold);
   transition: width 0.3s ease;
 }
 
 .nav-link:hover::after {
   width: 100%;
-}
-
-.cta-button {
-  background-color: #1e3a5f;
-  color: #ffffff;
-  border: none;
-  padding: 0.75rem 1.75rem;
-  border-radius: 25px;
-  font-size: 0.9rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  white-space: nowrap;
-}
-
-.cta-button:hover {
-  background-color: #2d4d75;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 8px rgba(30, 58, 95, 0.3);
-}
-
-.cta-button:active {
-  transform: translateY(0);
 }
 
 /* Responsive */
@@ -103,6 +87,7 @@
 
   .header-container {
     flex-wrap: wrap;
+    gap: 0.5rem;
   }
 
   .nav {
@@ -110,15 +95,11 @@
     justify-content: center;
     gap: 1.5rem;
     order: 3;
-    margin-top: 1rem;
+    margin-top: 0.75rem;
+    padding-bottom: 0.25rem;
   }
 
   .nav-link {
-    font-size: 0.8rem;
-  }
-
-  .cta-button {
-    padding: 0.6rem 1.4rem;
-    font-size: 0.85rem;
+    font-size: 0.72rem;
   }
 }

@@ -1,11 +1,28 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  /* ── Typography ── */
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'DM Sans', 'Helvetica Neue', sans-serif;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* ── Palette ── */
+  --navy:      #1a3350;
+  --navy-mid:  #284f76;
+  --navy-pale: #e8eef5;
+  --gold:      #b8965a;
+  --gold-pale: #f5ede0;
+  --cream:     #faf8f4;
+  --cream-mid: #f2ede4;
+  --slate:     #4e617a;
+  --mist:      #8ca0b5;
+  --white:     #ffffff;
+
+  /* ── Spacing scale ── */
+  --section-pad: 5rem 2rem;
+
+  font-family: var(--font-body);
+  line-height: 1.55;
+  font-weight: 400;
+  color: var(--navy);
+  background-color: var(--cream);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,39 +30,33 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-
-a:hover {
-  color: #535bf2;
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #ffffff;
+  background-color: var(--cream);
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 400;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
+a {
+  font-weight: 500;
+  color: var(--navy-mid);
+  text-decoration: none;
+}
 
-  a:hover {
-    color: #747bff;
-  }
+a:hover {
+  color: var(--gold);
+}
 
-  button {
-    background-color: #f9f9f9;
-  }
+/* ── Scroll behavior ── */
+html {
+  scroll-behavior: smooth;
 }
