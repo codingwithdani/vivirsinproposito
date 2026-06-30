@@ -56,7 +56,7 @@ function VivirSinProposito() {
             <div className="vsp-hero-content">
               <p className="vsp-category">DESARROLLO PERSONAL · FILOSOFÍA DE VIDA</p>
               <h1 className="vsp-title">
-                ¿Y si la presión de tener un propósito es, precisamente, lo que te impide vivir?
+                ¿Y si la presión de tener un Propósito es, precisamente, lo que te impide vivir?
               </h1>
 
               <div className="vsp-summary">

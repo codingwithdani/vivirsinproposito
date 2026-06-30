@@ -24,7 +24,7 @@ function Books() {
       coverImage: '/ganaleAlDepredador.jpg',
       amazonLink: 'https://amzn.to/4eDQs9f',
       category: 'PSICOLOGÍA LABORAL · AUTOPROTECCIÓN',
-      title: '¿Y si nadie viene a rescatarte, qué harías ante un agresor?',
+      title: '¿Y si nadie viene a rescatarte?',
       intro: 'La violencia en el trabajo no siempre se ve. A veces es sutil, silenciosa, sistemática. Este libro te da las herramientas para reconocerla, enfrentarla y salir adelante.',
       features: [
         'Identifica patrones de violencia directa y sutil en tu entorno',

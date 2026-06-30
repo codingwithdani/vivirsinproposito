@@ -22,9 +22,8 @@ function Hero() {
           </h1>
 
           <p className="hero-description">
-            Carlos A. Aguilera (Malavé) explora las ideas y creencias que influyen en nuestra forma de vivir. A través de sus libros y colaboraciones, invita a cuestionar aquello que solemos dar por cierto y a descubrir nuevas maneras de comprender los desafíos humanos.
+             Carlos A. Aguilera (Malavé) explora las ideas que influyen en nuestra forma de pensar, decidir y vivir. A través de sus libros y proyectos, propone una mirada crítica sobre algunas de las creencias que solemos aceptar sin cuestionar.             
           </p>
-
           <div className="hero-cta">
             <button className="btn-primary" onClick={() => handleScrollToSection('libros')}>
               Descubre mis libros
