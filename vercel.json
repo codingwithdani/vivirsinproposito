@@ -1,4 +1,18 @@
 {
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "vivirsinproposito.com" }],
+      "destination": "https://www.malaveautor.com/vivir-sin-proposito",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.vivirsinproposito.com" }],
+      "destination": "https://www.malaveautor.com/vivir-sin-proposito",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ],
