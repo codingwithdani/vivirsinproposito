@@ -28,8 +28,8 @@ function Home() {
   return (
     <>
       <Helmet>
-        <link rel="canonical" href="https://psicarlosaguilera.com/" />
-        <meta property="og:url" content="https://psicarlosaguilera.com/" />
+        <link rel="canonical" href="https://www.malaveautor.com/" />
+        <meta property="og:url" content="https://www.malaveautor.com/" />
         <meta property="og:title" content="Carlos A. Aguilera (Malavé) | Autor y Conferencista" />
         <meta property="og:description" content="Carlos A. Aguilera (Malavé) explora las ideas y creencias que influyen en nuestra forma de vivir. Autor de Vivir sin Propósito y Gánale al depredador." />
       </Helmet>

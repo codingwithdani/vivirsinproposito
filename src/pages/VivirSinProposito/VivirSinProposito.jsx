@@ -17,22 +17,22 @@ function VivirSinProposito() {
       <Helmet>
         <title>Vivir sin Propósito — Carlos A. Aguilera (Malavé)</title>
         <meta name="description" content="¿Y si la presión de tener un propósito es lo que te impide vivir? Un libro que cuestiona el mandato del éxito a través de filosofía, psicología y cultura popular." />
-        <link rel="canonical" href="https://psicarlosaguilera.com/vivir-sin-proposito" />
+        <link rel="canonical" href="https://www.malaveautor.com/vivir-sin-proposito" />
         <meta property="og:type" content="book" />
-        <meta property="og:url" content="https://psicarlosaguilera.com/vivir-sin-proposito" />
+        <meta property="og:url" content="https://www.malaveautor.com/vivir-sin-proposito" />
         <meta property="og:title" content="Vivir sin Propósito — Carlos A. Aguilera (Malavé)" />
         <meta property="og:description" content="¿Y si la presión de tener un propósito es lo que te impide vivir? Un libro que cuestiona el mandato del éxito a través de filosofía, psicología y cultura popular." />
 <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebPage",
           "name": "Vivir sin Propósito",
-          "url": "https://psicarlosaguilera.com/vivir-sin-proposito",
+          "url": "https://www.malaveautor.com/vivir-sin-proposito",
           "description": "¿Y si la presión de tener un propósito es lo que te impide vivir?",
           "breadcrumb": {
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://psicarlosaguilera.com/" },
-              { "@type": "ListItem", "position": 2, "name": "Vivir sin Propósito", "item": "https://psicarlosaguilera.com/vivir-sin-proposito" }
+              { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://www.malaveautor.com/" },
+              { "@type": "ListItem", "position": 2, "name": "Vivir sin Propósito", "item": "https://www.malaveautor.com/vivir-sin-proposito" }
             ]
           }
         })}</script>
