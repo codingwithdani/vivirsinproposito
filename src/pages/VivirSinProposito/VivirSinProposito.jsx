@@ -58,8 +58,8 @@ function VivirSinProposito() {
               </h1>
 
               <div className="vsp-summary">
-                <p>Desde que somos pequeños, el mundo nos dice que necesitamos un propósito. Una misión. Un legado. Y si no lo tienes, algo está mal en ti.</p>
-                <p>Este libro propone algo diferente: que esa búsqueda constante de sentido puede ser, paradójicamente, lo que más nos aleja de vivir. No es un llamado a la pasividad ni al nihilismo. Es una invitación a explorar qué ocurre cuando soltamos la presión de tener que ser alguien.</p>
+                <p>Desde que somos pequeños, el mundo nos dice que necesitamos un Propósito. Una misión. Un legado. Y si no lo tienes, algo está mal en ti.</p>
+                <p>Este libro propone algo diferente: que esa búsqueda constante de sentido puede ser, paradójicamente, lo que más nos aleja de vivir. No es un llamado a la pasividad ni al nihilismo. Es una invitación a explorar qué ocurre cuando soltamos la presión de tener que ser "Alguien".</p>
                 <p>A través de personajes icónicos de la cultura popular, reflexiones filosóficas y psicología aplicada, Carlos A. Aguilera (Malavé) construye un diálogo íntimo que abre posibilidades en lugar de cerrarlas.</p>
               </div>
 
@@ -98,7 +98,7 @@ function VivirSinProposito() {
             <h2 className="vsp-section-title">Un libro que desafía lo que creemos saber sobre la felicidad</h2>
             <div className="vsp-about-grid">
               <p>
-                Desde que somos pequeños, el mundo nos dice que necesitamos un propósito. Una misión. Un legado. Y si no lo tienes, algo está mal en ti.
+                Desde que somos pequeños, el mundo nos dice que necesitamos un Propósito. Una misión. Un legado. Y si no lo tienes, algo está mal en ti.
               </p>
               <p>
                 Este libro propone algo diferente: que esa búsqueda constante de sentido puede ser, paradójicamente, lo que más nos aleja de vivir. No es un llamado a la pasividad ni al nihilismo. Es una invitación a explorar qué ocurre cuando soltamos la presión de tener que ser alguien.
