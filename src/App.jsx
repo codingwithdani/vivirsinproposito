@@ -1,4 +1,5 @@
-import { Routes, Route } from 'react-router-dom'
+import { useEffect } from 'react'
+import { Routes, Route, useLocation } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import './App.css'
 import Header from './components/Header/Header'
@@ -11,6 +12,19 @@ import Footer from './components/Footer/Footer'
 import VivirSinProposito from './pages/VivirSinProposito/VivirSinProposito'
 
 function Home() {
+  const location = useLocation()
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.slice(1))
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        return
+      }
+    }
+    window.scrollTo(0, 0)
+  }, [location.hash])
+
   return (
     <>
       <Helmet>
