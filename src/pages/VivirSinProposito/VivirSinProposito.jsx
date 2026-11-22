@@ -46,8 +46,8 @@ function VivirSinProposito() {
             <div className="vsp-hero-image">
               <div className="vsp-badge">NUEVO</div>
               <picture>
-                <source srcSet="/VivirSinProposito.webp" type="image/webp" />
-                <img src="/VivirSinProposito.jpg" alt="Portada del libro Vivir sin Propósito" />
+                <source srcSet="/VivirSinProposito-v2.webp" type="image/webp" />
+                <img src="/VivirSinProposito-v2.jpg" alt="Portada del libro Vivir sin Propósito" />
               </picture>
             </div>
 

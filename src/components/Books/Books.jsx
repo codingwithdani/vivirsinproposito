@@ -7,7 +7,7 @@ function Books() {
       badge: 'NUEVO',
       badgeType: '',
       slug: 'vivir-sin-proposito',
-      coverImage: '/VivirSinProposito.jpg',
+      coverImage: '/VivirSinProposito-v2.jpg',
       category: 'DESARROLLO PERSONAL · FILOSOFÍA DE VIDA',
       title: '¿Y si realmente no es necesario tener un Propósito para ser feliz?',
       intro: 'Vivimos bombardeados por la idea de que debemos tener un gran propósito, dejar un legado y trascender. Pero, ¿qué pasa si esa presión es, en sí misma, lo que te impide vivir plenamente?',
@@ -21,7 +21,7 @@ function Books() {
     {
       badge: 'DISRUPTIVO',
       badgeType: '',
-      coverImage: '/ganaleAlDepredador.jpg',
+      coverImage: '/ganaleAlDepredador-v2.jpg',
       amazonLink: 'https://amzn.to/4eDQs9f',
       category: 'PSICOLOGÍA LABORAL · AUTOPROTECCIÓN',
       title: '¿Y si nadie viene a rescatarte?',
